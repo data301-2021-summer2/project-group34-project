@@ -1,5 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
-
+# Group 34! 
 - Your title can change over time.
 
 ## Milestones
