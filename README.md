@@ -7,7 +7,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-With the introduction of electric cars and other modes of electric transport, our reliance on fuel has been drastically decreasing over time. As a result, in order to compete with this growing market of electric vehicles, traditional gas run vehicles must innovate in many sectors, one such sector being fuel economy.   
+With the introduction of electric cars and other modes of electric transport, our reliance on fuel has been drastically decreasing over time. As a result, in order to compete with this growing market of electric vehicles, traditional gas run vehicles must innovate in many sectors, one such sector being fuel economy. Furthermore, the importance of a car’s fuel economy is only magnified due to the fact that fossil fuels (where most of the world’s fuel sources is derived from) are a finite and non- renewable resource and due to the heavy restrictions set by governments on the combustion of these fuels over concerns of global warming.    
 
 ## Describe your dataset in about 150-200 words
 
