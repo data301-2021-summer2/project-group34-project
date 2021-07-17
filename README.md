@@ -11,13 +11,14 @@ With the introduction of electric cars and other modes of electric transport, ou
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+ The dataset can be found on Kaggle. The owner of the dataset is the US Environmental Protection Agency. This dataset is composed of information from vehicle testing at a laboratory for fuel economy. The data set has information ranging from the make of the vehicle to fuel type to luggage volume. It also takes into account fuel costs based on an estimate of 15,000 miles per year. It was created in 2017, the dataset looks at car models from 1984 to 2017. The purpose of the dataset is to be a reliable reference when comparing vehicles. It provides information on city and highway factors on certain vehicles. They also provide estimated annual fuel costs for regular, mid-grade, and premium gasoline. The data was collected by vehicle manufacturers at the Environmental Protection Agency’s National Vehicle and Fuel Emissions Laboratory in Michigan. Therefore, this was humans collecting data for their manufacturing and safety purposes. 
+
 
 ## Team Members
 
 - Mehul Raisingh :I'm majoring in Electrical Engineering with a minor in Computer Science!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Garnoor Kalirai: I'm a Psychology Major, interested in computer sciences. 
+
 
 ## References
 
