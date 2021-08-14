@@ -1,5 +1,4 @@
 # Group 34! 
-- Your title can change over time.
 
 ## Milestones
 
@@ -22,4 +21,4 @@ With the introduction of electric cars and other modes of electric transport, ou
 
 ## References
 
-{Add your stuff here}
+[Link to the Kaggle dataset](https://www.kaggle.com/epa/fuel-economy).
