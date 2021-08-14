@@ -22,3 +22,7 @@ With the introduction of electric cars and other modes of electric transport, ou
 ## References
 
 [Link to the Kaggle dataset](https://www.kaggle.com/epa/fuel-economy).
+
+## Presentation Video 
+
+[Here is our video link](https://vimeo.com/manage/videos/587300049).

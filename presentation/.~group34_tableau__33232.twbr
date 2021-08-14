@@ -1,0 +1,1998 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Mehul processed data' inline='true' name='federated.00828sp03ae4u41bbweag0byw3eg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Mehul processed data' name='textscan.0xqrwn7080sael1g0ad911ax492u'>
+            <connection class='textscan' directory='/Users/garnoor/data301/projects/project-group34-project/data/processed' filename='Mehul processed data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0xqrwn7080sael1g0ad911ax492u' name='Mehul processed data.csv' table='[Mehul processed data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Vehicle ID' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='string' name='Make' ordinal='2' />
+            <column datatype='string' name='Model' ordinal='3' />
+            <column datatype='string' name='Fuel Type' ordinal='4' />
+            <column datatype='string' name='Fuel Type 1' ordinal='5' />
+            <column datatype='string' name='Electric Motor' ordinal='6' />
+            <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+            <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='8' />
+            <column datatype='real' name='Cost normalised with consumption' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0xqrwn7080sael1g0ad911ax492u' name='Mehul processed data.csv' table='[Mehul processed data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Vehicle ID' ordinal='0' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+            <column datatype='string' name='Make' ordinal='2' />
+            <column datatype='string' name='Model' ordinal='3' />
+            <column datatype='string' name='Fuel Type' ordinal='4' />
+            <column datatype='string' name='Fuel Type 1' ordinal='5' />
+            <column datatype='string' name='Electric Motor' ordinal='6' />
+            <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+            <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='8' />
+            <column datatype='real' name='Cost normalised with consumption' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vehicle ID]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Vehicle ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fuel Type]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Fuel Type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Type 1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fuel Type 1]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Fuel Type 1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Electric Motor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Electric Motor]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Electric Motor</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Fuel Cost (FT1)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Fuel Cost (FT1)]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Annual Fuel Cost (FT1)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Consumption in Barrels (FT1)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual Consumption in Barrels (FT1)]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Annual Consumption in Barrels (FT1)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost normalised with consumption</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost normalised with consumption]</local-name>
+            <parent-name>[Mehul processed data.csv]</parent-name>
+            <remote-alias>Cost normalised with consumption</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Annual Consumption in Barrels (FT1)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Cost normalised with consumption]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Vehicle ID]' role='dimension' type='ordinal' />
+      <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Mehul processed data.csv' datatype='table' name='[__tableau_internal_object_id__].[Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4]' role='measure' type='quantitative' />
+      <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Annual Consumption in Barrels (FT1)]' derivation='Sum' name='[sum:Annual Consumption in Barrels (FT1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Sum' name='[sum:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cost normalised with consumption]' derivation='Sum' name='[sum:Cost normalised with consumption:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Fuel Type,YEAR(Year))' hidden='true' name='[Action (Fuel Type,YEAR(Year))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Fuel Type]' />
+          <groupfilter function='level-members' level='[tyr:Year:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Fuel Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Premium and Electricity&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CNG&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gasoline or natural gas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Regular Gas and Electricity&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Premium Gas or Electricity&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gasoline or propane&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Diesel&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Midgrade&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Regular Gas or Electricity&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Premium or E85&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Premium&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Electricity&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Regular&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gasoline or E85&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Consumption in Barrels (FT1):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]:1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Mehul processed data.csv' id='Mehul processed data.csv_145415CB3046424FB87FA0A3F8938EE4'>
+            <properties context=''>
+              <relation connection='textscan.0xqrwn7080sael1g0ad911ax492u' name='Mehul processed data.csv' table='[Mehul processed data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='Vehicle ID' ordinal='0' />
+                  <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='1' />
+                  <column datatype='string' name='Make' ordinal='2' />
+                  <column datatype='string' name='Model' ordinal='3' />
+                  <column datatype='string' name='Fuel Type' ordinal='4' />
+                  <column datatype='string' name='Fuel Type 1' ordinal='5' />
+                  <column datatype='string' name='Electric Motor' ordinal='6' />
+                  <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+                  <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='8' />
+                  <column datatype='real' name='Cost normalised with consumption' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='garnoor_processed_data' inline='true' name='federated.0ax32nn0yaechk195cvg502woopj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='garnoor_processed_data' name='textscan.1rwe98s1rmqrsd1gpoq6808rqy2m'>
+            <connection class='textscan' directory='/Users/garnoor/data301/projects/project-group34-project/data/processed' filename='Mehul processed data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1rwe98s1rmqrsd1gpoq6808rqy2m' name='garnoor_processed_data.csv' table='[garnoor_processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='0' />
+            <column datatype='string' name='Make' ordinal='1' />
+            <column datatype='string' name='Model' ordinal='2' />
+            <column datatype='string' name='Class' ordinal='3' />
+            <column datatype='string' name='Drive' ordinal='4' />
+            <column datatype='string' name='Transmission' ordinal='5' />
+            <column datatype='string' name='Fuel Type' ordinal='6' />
+            <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+            <column datatype='integer' name='Save or Spend (5 Year)' ordinal='8' />
+            <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='9' />
+            <column datatype='integer' name='Fuel Economy Score' ordinal='10' />
+            <column datatype='integer' name='Overal_costs' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1rwe98s1rmqrsd1gpoq6808rqy2m' name='garnoor_processed_data.csv' table='[garnoor_processed_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='0' />
+            <column datatype='string' name='Make' ordinal='1' />
+            <column datatype='string' name='Model' ordinal='2' />
+            <column datatype='string' name='Class' ordinal='3' />
+            <column datatype='string' name='Drive' ordinal='4' />
+            <column datatype='string' name='Transmission' ordinal='5' />
+            <column datatype='string' name='Fuel Type' ordinal='6' />
+            <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+            <column datatype='integer' name='Save or Spend (5 Year)' ordinal='8' />
+            <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='9' />
+            <column datatype='integer' name='Fuel Economy Score' ordinal='10' />
+            <column datatype='integer' name='Overal_costs' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Make</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Make]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Make</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Class]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Class</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drive</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drive]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Drive</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transmission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Transmission]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Transmission</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Fuel Type]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Fuel Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Fuel Cost (FT1)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Annual Fuel Cost (FT1)]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Annual Fuel Cost (FT1)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Save or Spend (5 Year)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Save or Spend (5 Year)]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Save or Spend (5 Year)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Annual Consumption in Barrels (FT1)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Annual Consumption in Barrels (FT1)]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Annual Consumption in Barrels (FT1)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel Economy Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fuel Economy Score]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Fuel Economy Score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Overal_costs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Overal_costs]</local-name>
+            <parent-name>[garnoor_processed_data.csv]</parent-name>
+            <remote-alias>Overal_costs</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+      <column caption='Overal costs' datatype='integer' name='[Overal_costs]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Save or Spend (5 Year)]' role='measure' type='quantitative' />
+      <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='garnoor_processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF]' role='measure' type='quantitative' />
+      <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Avg' name='[avg:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Overal_costs]' derivation='Avg' name='[avg:Overal_costs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Save or Spend (5 Year)]' derivation='Avg' name='[avg:Save or Spend (5 Year):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Count' name='[cnt:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Sum' name='[sum:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ax32nn0yaechk195cvg502woopj].[cnt:Annual Fuel Cost (FT1):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ax32nn0yaechk195cvg502woopj].[sum:Annual Fuel Cost (FT1):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ax32nn0yaechk195cvg502woopj].[avg:Save or Spend (5 Year):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='garnoor_processed_data.csv' id='garnoor_processed_data.csv_E8A47208D96E4B9396454EB1E52FEBEF'>
+            <properties context=''>
+              <relation connection='textscan.1rwe98s1rmqrsd1gpoq6808rqy2m' name='garnoor_processed_data.csv' table='[garnoor_processed_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='0' />
+                  <column datatype='string' name='Make' ordinal='1' />
+                  <column datatype='string' name='Model' ordinal='2' />
+                  <column datatype='string' name='Class' ordinal='3' />
+                  <column datatype='string' name='Drive' ordinal='4' />
+                  <column datatype='string' name='Transmission' ordinal='5' />
+                  <column datatype='string' name='Fuel Type' ordinal='6' />
+                  <column datatype='integer' name='Annual Fuel Cost (FT1)' ordinal='7' />
+                  <column datatype='integer' name='Save or Spend (5 Year)' ordinal='8' />
+                  <column datatype='real' name='Annual Consumption in Barrels (FT1)' ordinal='9' />
+                  <column datatype='integer' name='Fuel Economy Score' ordinal='10' />
+                  <column datatype='integer' name='Overal_costs' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_02256E00456E42C0B33C98169ED24053]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Mehul&apos;s Dashboard ' type='sheet' worksheet='Population change of differently powered cars' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Mehul&apos;s Dashboard ' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Annual Fuel Cost'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+            <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Avg' name='[avg:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]'>
+            <groupfilter from='1984' function='range' level='[yr:Year:ok]' to='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]' scope='cols' value='Average Annual Fuel Costs' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#79706e' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]</rows>
+        <cols>[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]</cols>
+      </table>
+      <simple-id uuid='{B025F102-F1D0-4DBA-A117-981BB0EF3A4C}' />
+    </worksheet>
+    <worksheet name='Average Fuel Type Economy Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+            <column datatype='integer' name='[Fuel Economy Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Fuel Economy Score]' derivation='Avg' name='[avg:Fuel Economy Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]'>
+            <groupfilter from='1984' function='range' level='[yr:Year:ok]' to='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Fuel Economy Score:qk]' scope='cols' value='Fuel Economy Score' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]</rows>
+        <cols>[federated.0ax32nn0yaechk195cvg502woopj].[avg:Fuel Economy Score:qk]</cols>
+      </table>
+      <simple-id uuid='{9E25C03B-0F2F-43CB-8C09-0B98755AEE09}' />
+    </worksheet>
+    <worksheet name='Comparative study of trends'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Mehul processed data' name='federated.00828sp03ae4u41bbweag0byw3eg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00828sp03ae4u41bbweag0byw3eg'>
+            <column datatype='real' name='[Annual Consumption in Barrels (FT1)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cost normalised with consumption]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual Consumption in Barrels (FT1)]' derivation='Sum' name='[sum:Annual Consumption in Barrels (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Sum' name='[sum:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cost normalised with consumption]' derivation='Sum' name='[sum:Cost normalised with consumption:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]'>
+            <groupfilter function='level-members' level='[none:Fuel Type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]'>
+            <groupfilter function='level-members' level='[none:Make:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Model:nk]'>
+            <groupfilter function='level-members' level='[none:Model:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]</column>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]</column>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Model:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[tyr:Year:qk]' scope='cols' value='Year ' />
+            <format attr='width' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk]' value='76' />
+            <format attr='width' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]' value='76' />
+            <format attr='width' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Consumption in Barrels (FT1):qk]' value='76' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Consumption in Barrels (FT1):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk] + ([federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk] + ([federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Consumption in Barrels (FT1):qk] + [federated.00828sp03ae4u41bbweag0byw3eg].[sum:Cost normalised with consumption:qk])))</rows>
+        <cols>[federated.00828sp03ae4u41bbweag0byw3eg].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{0663687B-2FDC-45BB-A682-353C3F733C77}' />
+    </worksheet>
+    <worksheet name='Cost of Fuel type over 5 years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column caption='Overal costs' datatype='integer' name='[Overal_costs]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Overal_costs]' derivation='Avg' name='[avg:Overal_costs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]'>
+            <groupfilter from='1984' function='range' level='[yr:Year:ok]' to='2017' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]' scope='rows' value='Average Cost over 5 years' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4832596778869629' />
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]</rows>
+        <cols>[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]</cols>
+      </table>
+      <simple-id uuid='{47E44BE6-BC48-422D-85F9-897C1027AC22}' />
+    </worksheet>
+    <worksheet name='Costs of Vehicles over the Years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+            <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Class]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column caption='Overal costs' datatype='integer' name='[Overal_costs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Save or Spend (5 Year)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Avg' name='[avg:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Overal_costs]' derivation='Avg' name='[avg:Overal_costs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Save or Spend (5 Year)]' derivation='Avg' name='[avg:Save or Spend (5 Year):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Class]' derivation='None' name='[none:Class:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[none:Class:nk]'>
+            <groupfilter from='&quot;Compact Cars&quot;' function='range' level='[none:Class:nk]' to='&quot;Vans, Passenger Type&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]'>
+            <groupfilter function='level-members' level='[none:Fuel Type:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0ax32nn0yaechk195cvg502woopj].[none:Make:nk]'>
+            <groupfilter function='level-members' level='[none:Make:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[none:Class:nk]</column>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[none:Make:nk]</column>
+            <column>[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Save or Spend (5 Year):qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]' scope='rows' value='Costs over 5 years' />
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Save or Spend (5 Year):qk]' scope='rows' value='Money Saved over 5 Years' />
+            <format attr='title' class='0' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]' scope='rows' value='Average Fuel Cost ' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ax32nn0yaechk195cvg502woopj].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Save or Spend (5 Year):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ax32nn0yaechk195cvg502woopj].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ax32nn0yaechk195cvg502woopj].[avg:Annual Fuel Cost (FT1):qk] + ([federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk] + [federated.0ax32nn0yaechk195cvg502woopj].[avg:Save or Spend (5 Year):qk]))</rows>
+        <cols>[federated.0ax32nn0yaechk195cvg502woopj].[yr:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{6584723C-EA42-4529-9955-19F438F9D745}' />
+    </worksheet>
+    <worksheet name='Fuel Economy Score X Costs over 5 years'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+            <column datatype='integer' name='[Fuel Economy Score]' role='measure' type='quantitative' />
+            <column caption='Overal costs' datatype='integer' name='[Overal_costs]' role='measure' type='quantitative' />
+            <column-instance column='[Overal_costs]' derivation='Avg' name='[avg:Overal_costs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel Economy Score]' derivation='None' name='[none:Fuel Economy Score:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b07aa1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ax32nn0yaechk195cvg502woopj].[avg:Overal_costs:qk]</rows>
+        <cols>[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Economy Score:ok]</cols>
+      </table>
+      <simple-id uuid='{B00C6399-D5BF-48C1-BB5F-5E891E384AD0}' />
+    </worksheet>
+    <worksheet name='Population change of differently powered cars'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Mehul processed data' name='federated.00828sp03ae4u41bbweag0byw3eg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00828sp03ae4u41bbweag0byw3eg'>
+            <column datatype='real' name='[Annual Consumption in Barrels (FT1)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cost normalised with consumption]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Vehicle ID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Vehicle ID]' derivation='Count' name='[cnt:Vehicle ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Consumption in Barrels (FT1)]' derivation='None' name='[none:Annual Consumption in Barrels (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Annual Fuel Cost (FT1)]' derivation='None' name='[none:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cost normalised with consumption]' derivation='None' name='[none:Cost normalised with consumption:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='Year-Trunc' name='[tyr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Consumption in Barrels (FT1):qk]' included-values='in-range'>
+            <min>0.059999999999999998</min>
+            <max>47.087142857142901</max>
+          </filter>
+          <filter class='quantitative' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Fuel Cost (FT1):qk]' included-values='in-range'>
+            <min>500</min>
+            <max>6050</max>
+          </filter>
+          <filter class='quantitative' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Cost normalised with consumption:qk]' included-values='in-range'>
+            <min>98.904980572235957</min>
+            <max>16774.193548387106</max>
+          </filter>
+          <slices>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Consumption in Barrels (FT1):qk]</column>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Fuel Cost (FT1):qk]</column>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Cost normalised with consumption:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[tyr:Year:qk]' field-type='quantitative' max='#2021-10-02 21:25:52.318#' min='#2002-02-05 22:50:00.432#' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[cnt:Vehicle ID:qk]' field-type='quantitative' max='711' min='-202' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[cnt:Vehicle ID:qk]' scope='rows' value='Number of vehicles' />
+            <format attr='title' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[tyr:Year:qk]' scope='cols' value='Year' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.75762432813644409' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00828sp03ae4u41bbweag0byw3eg].[cnt:Vehicle ID:qk]</rows>
+        <cols>[federated.00828sp03ae4u41bbweag0byw3eg].[tyr:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{5731F1EC-23A1-4956-8234-6598499A4D72}' />
+    </worksheet>
+    <worksheet name='Relative cost of each fuel type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Mehul processed data' name='federated.00828sp03ae4u41bbweag0byw3eg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00828sp03ae4u41bbweag0byw3eg'>
+            <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Model]' role='dimension' type='nominal' />
+            <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Model]' derivation='None' name='[none:Model:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Annual Fuel Cost (FT1)]' derivation='Sum' name='[sum:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]'>
+            <groupfilter from='&quot;Acura&quot;' function='range' level='[none:Make:nk]' to='&quot;Yugo&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Model:nk]'>
+            <groupfilter function='level-members' level='[none:Model:nk]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]</column>
+            <column>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Model:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk]' field-type='quantitative' max='6981404' min='-778201' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#edc948' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]</rows>
+        <cols>[federated.00828sp03ae4u41bbweag0byw3eg].[sum:Annual Fuel Cost (FT1):qk]</cols>
+      </table>
+      <simple-id uuid='{C6DAA234-23D0-495A-AB81-23C000B6A748}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='garnoor_processed_data' name='federated.0ax32nn0yaechk195cvg502woopj' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0ax32nn0yaechk195cvg502woopj'>
+        <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+        <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='92304' id='8' param='horz' type-v2='layout-flow' w='98698' x='651' y='6555'>
+            <zone h='92304' id='6' type-v2='layout-basic' w='98698' x='651' y='6555'>
+              <zone h='81333' id='5' name='Costs of Vehicles over the Years' w='49362' x='49987' y='6555'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='83193' id='10' name='Average Fuel Type Economy Score' w='49336' x='651' y='6555'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='9111' id='13' type-v2='text' w='49336' x='651' y='89748'>
+                <formatted-text>
+                  <run fontcolor='#555555'>This figure display the average Fuel economy score a certain type of Fuel type has recieved.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='10971' id='14' type-v2='text' w='49362' x='49987' y='87888'>
+                <formatted-text>
+                  <run fontcolor='#555555'>This figure displays three graph on the make year of the vehicles. The lineplots shows the overall costs on fuel and maintainance on a vehicle made in a certain year.  The money saved axis shows the how much money was spent on vehicles over 5 years. The lineplot is made up of negative numbers because the vehicles are not saving money.</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='5414' id='15' type-v2='text' w='98698' x='651' y='1141'>
+            <formatted-text>
+              <run fontcolor='#f28e2b' fontname='Helvetica Neue' fontsize='15'>Based off of Fuel Economy estimates, which type of vehicle would save costs considering fuel consumption and costs of vehicle management over 5 years?</run>
+              <run fontcolor='#f28e2b' fontname='Benton Sans Book' fontsize='15'>Æ </run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='5642' id='18' type-v2='dashboard-object' w='11427' x='87296' y='4646'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{C261AE4D-CC7A-44E1-A1EE-925EDF204260}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>Home</caption>
+              <button-caption-font-style fontcolor='#e15759' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#ffffff' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='1' />
+              <format attr='border-color' value='#e15759' />
+            </button-visual-state>
+          </button>
+        </zone>
+        <zone h='9513' id='11' mode='dropdown' name='Costs of Vehicles over the Years' param='[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]' type-v2='filter' values='database' w='11498' x='87083' y='26438' />
+        <zone h='4867' id='12' mode='dropdown' name='Costs of Vehicles over the Years' param='[federated.0ax32nn0yaechk195cvg502woopj].[none:Make:nk]' type-v2='filter' values='database' w='11356' x='86941' y='32080' />
+        <zone h='6416' id='9' name='Costs of Vehicles over the Years' pane-specification-id='2' param='[federated.0ax32nn0yaechk195cvg502woopj].[:Measure Names]' type-v2='color' w='12846' x='80767' y='62832' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='40' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98476' id='39' param='vert' type-v2='layout-flow' w='99012' x='494' y='762'>
+                <zone forceUpdate='true' h='5457' id='15' type-v2='text' w='99012' x='494' y='762'>
+                  <formatted-text>
+                    <run fontcolor='#f28e2b' fontname='Helvetica Neue' fontsize='15'>Based off of Fuel Economy estimates, which type of vehicle would save costs considering fuel consumption and costs of vehicle management over 5 years?</run>
+                    <run fontcolor='#f28e2b' fontname='Benton Sans Book' fontsize='15'>Æ </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5642' id='18' type-v2='dashboard-object' w='11427' x='87296' y='4646'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{C261AE4D-CC7A-44E1-A1EE-925EDF204260}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Home</caption>
+                      <button-caption-font-style fontcolor='#e15759' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#ffffff' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='border-color' value='#e15759' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83839' id='10' is-fixed='true' name='Average Fuel Type Economy Score' w='49494' x='494' y='6219'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9513' id='11' mode='dropdown' name='Costs of Vehicles over the Years' param='[federated.0ax32nn0yaechk195cvg502woopj].[none:Fuel Type:nk]' type-v2='filter' values='database' w='11498' x='87083' y='26438'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4867' id='12' mode='dropdown' name='Costs of Vehicles over the Years' param='[federated.0ax32nn0yaechk195cvg502woopj].[none:Make:nk]' type-v2='filter' values='database' w='11356' x='86941' y='32080'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='81965' id='5' is-fixed='true' name='Costs of Vehicles over the Years' w='49518' x='49988' y='6219'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6416' id='9' name='Costs of Vehicles over the Years' pane-specification-id='2' param='[federated.0ax32nn0yaechk195cvg502woopj].[:Measure Names]' type-v2='color' w='12846' x='80767' y='62832'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11054' id='14' type-v2='text' w='49518' x='49988' y='88184'>
+                  <formatted-text>
+                    <run fontcolor='#555555'>This figure displays three graph on the make year of the vehicles. The lineplots shows the overall costs on fuel and maintainance on a vehicle made in a certain year.  The money saved axis shows the how much money was spent on vehicles over 5 years. The lineplot is made up of negative numbers because the vehicles are not saving money.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='9180' id='13' type-v2='text' w='49494' x='494' y='90058'>
+                  <formatted-text>
+                    <run fontcolor='#555555'>This figure display the average Fuel economy score a certain type of Fuel type has recieved.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{256FC560-ED46-4B5E-BADD-E882FCBEC662}' />
+    </dashboard>
+    <dashboard name='Group 34 - Home'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49080' id='5' type-v2='dashboard-object' w='98888' x='556' y='920'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{248A3FB6-7F75-457B-B2D4-CAB39E46E5AE}&quot;' button-type='text'>
+              <button-visual-state>
+                <caption>.</caption>
+                <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                <format attr='background-color' value='#499894' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='1' />
+                <format attr='border-color' value='#499894' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49080' id='7' type-v2='dashboard-object' w='98888' x='556' y='50000'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{F4345B3E-CFE7-4FD8-97F2-1D39D288CC70}&quot;' button-type='text'>
+              <button-visual-state>
+                <caption>.</caption>
+                <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                <format attr='background-color' value='#f28e2b' />
+                <format attr='border-style' value='solid' />
+                <format attr='border-width' value='1' />
+                <format attr='border-color' value='#f28e2b' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='20625' id='10' type-v2='text' w='46300' x='28800' y='61875'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Corbel' fontsize='15'>Which type of vehicle would save costs considering fuel consumption and costs of vehicle management over 5 years? (RQ2)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='13875' id='13' type-v2='text' w='46600' x='29000' y='17125'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Corbel' fontsize='15'>Would the fuel economy of existing petrol/diesel powered cars be impacted due to the increasing competition in the market produced by the introduction of electric cars? (RQ1)</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='49000' id='5' type-v2='dashboard-object' w='98400' x='800' y='1000'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{248A3FB6-7F75-457B-B2D4-CAB39E46E5AE}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>.</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#499894' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='border-color' value='#499894' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='13875' id='13' type-v2='text' w='46600' x='29000' y='17125'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Corbel' fontsize='15'>Would the fuel economy of existing petrol/diesel powered cars be impacted due to the increasing competition in the market produced by the introduction of electric cars? (RQ1)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='7' type-v2='dashboard-object' w='98400' x='800' y='50000'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{F4345B3E-CFE7-4FD8-97F2-1D39D288CC70}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>.</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#f28e2b' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='border-color' value='#f28e2b' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='20625' id='10' type-v2='text' w='46300' x='28800' y='61875'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#ffffff' fontname='Corbel' fontsize='15'>Which type of vehicle would save costs considering fuel consumption and costs of vehicle management over 5 years? (RQ2)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{532C8E44-9054-4F39-9137-50D26C939BEE}' />
+    </dashboard>
+    <dashboard name='Mehul&apos;s Dashboard '>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Mehul processed data' name='federated.00828sp03ae4u41bbweag0byw3eg' />
+      </datasources>
+      <datasource-dependencies datasource='federated.00828sp03ae4u41bbweag0byw3eg'>
+        <column datatype='real' name='[Annual Consumption in Barrels (FT1)]' role='measure' type='quantitative' />
+        <column datatype='integer' name='[Annual Fuel Cost (FT1)]' role='measure' type='quantitative' />
+        <column datatype='string' name='[Fuel Type]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Make]' role='dimension' type='nominal' />
+        <column-instance column='[Annual Consumption in Barrels (FT1)]' derivation='None' name='[none:Annual Consumption in Barrels (FT1):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Annual Fuel Cost (FT1)]' derivation='None' name='[none:Annual Fuel Cost (FT1):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Fuel Type]' derivation='None' name='[none:Fuel Type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Make]' derivation='None' name='[none:Make:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='86463' id='61' param='horz' type-v2='layout-flow' w='98888' x='556' y='12617'>
+            <zone h='86463' id='59' type-v2='layout-basic' w='98888' x='556' y='12617'>
+              <zone h='45139' id='53' param='horz' type-v2='layout-flow' w='98888' x='556' y='12617'>
+                <zone h='45139' id='26' type-v2='layout-basic' w='98888' x='556' y='12617'>
+                  <zone h='45139' id='16' param='horz' type-v2='layout-flow' w='49444' x='50000' y='12617'>
+                    <zone fixed-size='666' h='45139' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='49444' x='50000' y='12617'>
+                      <zone h='45139' id='12' name='Population change of differently powered cars' w='49444' x='50000' y='12617'>
+                        <layout-cache minheight='198' minwidth='166' type-h='scalable' type-w='scalable' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                  <zone h='45139' id='21' name='Relative cost of each fuel type' w='49444' x='556' y='12617'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='41324' id='14' name='Comparative study of trends' w='98888' x='556' y='57756'>
+                <layout-cache minheight='299' type-h='scalable' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='11697' id='65' type-v2='text' w='98888' x='556' y='920'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#76b7b2' fontname='Corbel' fontsize='15'>Would the fuel economy of existing petrol/diesel powered cars be impacted due to the increasing competition in the market produced by the introduction of electric cars?</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontcolor='#000000' fontname='Corbel'>This dashboard uses data of vehicles collected over a 30 year time period to explore this question</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='22677' id='13' name='Population change of differently powered cars' pane-specification-id='0' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' type-v2='color' w='8730' x='89922' y='13606' />
+        <zone h='7412' id='17' name='Comparative study of trends' pane-specification-id='2' param='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' type-v2='color' w='11994' x='81476' y='70575' />
+        <zone h='4867' id='48' mode='dropdown' name='Comparative study of trends' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' type-v2='filter' values='database' w='11356' x='68843' y='87058' />
+        <zone h='6305' id='51' name='Population change of differently powered cars' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Consumption in Barrels (FT1):qk]' type-v2='filter' values='database' w='17033' x='56707' y='45243' />
+        <zone h='6305' id='54' name='Population change of differently powered cars' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Fuel Cost (FT1):qk]' type-v2='filter' values='database' w='13059' x='77289' y='44912' />
+        <zone h='4867' id='62' mode='dropdown' name='Comparative study of trends' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]' type-v2='filter' values='database' w='11356' x='80979' y='86947' />
+        <zone h='3761' id='76' type-v2='text' w='36267' x='11710' y='55752'>
+          <formatted-text>
+            <run>Figure 1 - This figure compares the relative annual fuel cost depending on fuel type</run>
+          </formatted-text>
+        </zone>
+        <zone h='5642' id='81' type-v2='text' w='47055' x='51597' y='56416'>
+          <formatted-text>
+            <run>Figure 2 -  This figure displays the change in population of each fuel type over the years. Filters can also be applied to compare how consumption in barrels and annual fuel cost per fuel type has differed in the last 30 years.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4757' id='84' type-v2='text' w='99361' x='7523' y='95907'>
+          <formatted-text>
+            <run>Figure 3 -  This figure explores the trends between annual fuel cost, consumption in barrels and normalised cost per barrel over the last 30 years. Filters can be applied to see how this trend changes with different fuel types and car makes.</run>
+          </formatted-text>
+        </zone>
+        <zone h='4867' id='101' type-v2='dashboard-object' w='11923' x='87225' y='6969'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{C261AE4D-CC7A-44E1-A1EE-925EDF204260}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>Home</caption>
+              <button-caption-font-style fontcolor='#e15759' fontname='Tableau Bold' fontsize='12' />
+              <format attr='background-color' value='#e1575900' />
+              <format attr='border-style' value='solid' />
+              <format attr='border-width' value='1' />
+              <format attr='border-color' value='#e15759' />
+            </button-visual-state>
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='123' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='122' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='11701' id='65' type-v2='text' w='98888' x='556' y='920'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#76b7b2' fontname='Corbel' fontsize='15'>Would the fuel economy of existing petrol/diesel powered cars be impacted due to the increasing competition in the market produced by the introduction of electric cars?</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Corbel'>This dashboard uses data of vehicles collected over a 30 year time period to explore this question</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4867' id='101' type-v2='dashboard-object' w='11923' x='87225' y='6969'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{C261AE4D-CC7A-44E1-A1EE-925EDF204260}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Home</caption>
+                      <button-caption-font-style fontcolor='#e15759' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#e1575900' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='border-color' value='#e15759' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45140' id='21' is-fixed='true' name='Relative cost of each fuel type' w='49444' x='556' y='12621'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6305' id='51' name='Population change of differently powered cars' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Consumption in Barrels (FT1):qk]' type-v2='filter' values='database' w='17033' x='56707' y='45243'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6305' id='54' name='Population change of differently powered cars' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Annual Fuel Cost (FT1):qk]' type-v2='filter' values='database' w='13059' x='77289' y='44912'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45140' id='12' is-fixed='true' name='Population change of differently powered cars' w='49444' x='50000' y='12621'>
+                  <layout-cache minheight='198' minwidth='166' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='22677' id='13' name='Population change of differently powered cars' pane-specification-id='0' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' type-v2='color' w='8730' x='89922' y='13606'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3761' id='76' type-v2='text' w='36267' x='11710' y='55752'>
+                  <formatted-text>
+                    <run>Figure 1 - This figure compares the relative annual fuel cost depending on fuel type</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5642' id='81' type-v2='text' w='47055' x='51597' y='56416'>
+                  <formatted-text>
+                    <run>Figure 2 -  This figure displays the change in population of each fuel type over the years. Filters can also be applied to compare how consumption in barrels and annual fuel cost per fuel type has differed in the last 30 years.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4867' id='48' mode='dropdown' name='Comparative study of trends' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' type-v2='filter' values='database' w='11356' x='68843' y='87058'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4867' id='62' mode='dropdown' name='Comparative study of trends' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Make:nk]' type-v2='filter' values='database' w='11356' x='80979' y='86947'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41319' id='14' is-fixed='true' name='Comparative study of trends' w='98888' x='556' y='57761'>
+                  <layout-cache minheight='299' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7412' id='17' name='Comparative study of trends' pane-specification-id='2' param='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' type-v2='color' w='11994' x='81476' y='70575'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4757' id='84' type-v2='text' w='99361' x='7523' y='95907'>
+                  <formatted-text>
+                    <run>Figure 3 -  This figure explores the trends between annual fuel cost, consumption in barrels and normalised cost per barrel over the last 30 years. Filters can be applied to see how this trend changes with different fuel types and car makes.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B307F8E6-47CC-4F7D-B51A-FA4901864BF0}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='23'>
+    <window class='worksheet' name='Annual Fuel Cost'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AAC5A668-AA76-49FA-84FA-CF3C98621543}' />
+    </window>
+    <window class='worksheet' name='Cost of Fuel type over 5 years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{101EFAE0-E17A-4642-BF20-897AEBCCA6F4}' />
+    </window>
+    <window class='worksheet' name='Fuel Economy Score X Costs over 5 years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E1642E50-772E-40C8-8D5D-A241FC9E8337}' />
+    </window>
+    <window class='worksheet' name='Average Fuel Type Economy Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{400437C5-4ABB-41F8-A076-BC6CEF19B7E1}' />
+    </window>
+    <window class='worksheet' name='Costs of Vehicles over the Years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0ax32nn0yaechk195cvg502woopj].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EC0D429D-B12A-4656-B89D-2124267C7E49}' />
+    </window>
+    <window class='worksheet' name='Comparative study of trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.00828sp03ae4u41bbweag0byw3eg].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5D1C6CCE-4681-4A0E-BCE7-AFED076AE806}' />
+    </window>
+    <window class='worksheet' name='Population change of differently powered cars'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00828sp03ae4u41bbweag0byw3eg].[none:Fuel Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ECD6F5F3-501F-4414-BA55-D5B04D34AE84}' />
+    </window>
+    <window class='worksheet' name='Relative cost of each fuel type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04B7FCA9-0B98-49F8-BA65-1DDA99CF057F}' />
+    </window>
+    <window class='dashboard' name='Mehul&apos;s Dashboard '>
+      <viewpoints>
+        <viewpoint name='Comparative study of trends'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Population change of differently powered cars'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Relative cost of each fuel type' />
+      </viewpoints>
+      <active id='101' />
+      <simple-id uuid='{248A3FB6-7F75-457B-B2D4-CAB39E46E5AE}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Average Fuel Type Economy Score'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Costs of Vehicles over the Years'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='18' />
+      <simple-id uuid='{F4345B3E-CFE7-4FD8-97F2-1D39D288CC70}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Group 34 - Home'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{C261AE4D-CC7A-44E1-A1EE-925EDF204260}' />
+    </window>
+  </windows>
+</workbook>
